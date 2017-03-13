@@ -193,9 +193,9 @@
  	quizApp.correctAnswer = function() {
  		$('.questions').fadeOut('slow', function() {
  			$('.questions').html(`<div class="wrapper">
+									<button class="questions__giveUp">Pass</button>
 									<div class="questions__text"> 
 									</div>
-									<button class="questions__giveUp">Pass</button>
 									<!--Radio Buttons-->
 									<form action="submit" id="radioButtonsYear">
 										<div class="questions__options">
@@ -218,9 +218,9 @@
  	quizApp.wrongAnswer = function() {
  		$('.questions').fadeOut('slow', function() {
  			$('.questions').html(`<div class="wrapper">
+									<button class="questions__giveUp">Pass</button>
 									<div class="questions__text"> 
 									</div>
-									<button class="questions__giveUp">Pass</button>
 									<!--Radio Buttons-->
 									<form action="submit" id="radioButtonsYear">
 										<div class="questions__options">
