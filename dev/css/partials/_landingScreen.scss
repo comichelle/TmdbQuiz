@@ -4,7 +4,8 @@
 	// margin: 0 auto;
 	display: flex;
 	margin: auto;
-	background-color: rgba(11, 64, 100, 1);
+	// background-color: rgba(255,255,255,0.5);
+	background-color: rgba(11, 64, 100, 0.9);
 	position: fixed;
 	border-radius: 10px;
 	z-index: 100;
@@ -103,8 +104,8 @@
 	.landingSplash {
 		height: 80%;
 		.landingSplash__title h1 {
-		font-size: 20px;
-		line-height: 10px;
+		font-size: 50px;
+		line-height: 65px;
 		letter-spacing: 10px;
 		padding: 0 20px;
 		text-shadow:
