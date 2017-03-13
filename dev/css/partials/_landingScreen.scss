@@ -28,10 +28,11 @@
 		color: $lightbluegreen;
 	}
 	.landingSplash__title h1 {
+		width: 95%;
 		font-family: $roboto;
 		color: $lightbluegreen;
 		font-size: 60px;
-		margin: 0;
+		margin: 0 auto;
 		line-height: 65px;
 		text-transform: uppercase;
 		letter-spacing: 7px;
@@ -82,16 +83,6 @@
 //            MEDIA QUERIES              
 //======================================
 
-
-// @media (max-width: 1120px) {
-	
-// }
-
-// // Portrait tablet and small desktops
-// @media (max-width: 940px) {
-	
-// }
- 
 // Landscape phone to portrait tablet
 // @media (max-width: 767px) {
 // 	.landingSplash {
@@ -99,47 +90,69 @@
 // 	}
 // }
 
-// @media (max-width: 610px) {
-// 	.landingSplash {
-// 		height: 80%;
-// 		.landingSplash__title h1 {
-// 		font-size: 20px;
-// 		line-height: 10px;
-// 		text-transform: uppercase;
-// 		letter-spacing: 10px;
-// 		text-align: center;
-// 		padding: 0 20px;
-// 		text-shadow:
-// 		    7px 7px 0 $darkblue,
-// 		    -3px -2px 0 $darkblue,  
-// 		    3px -2px 0 $darkblue,
-// 		    -3px 2px 0 $darkblue,
-// 		     3px 2px 0 $darkblue;
-// 	}
-// }
+@media (max-width: 700px) and (min-width: 660px) {
+	.landingSplash {
+		padding-top: 20px;
+	}
+}
+
+@media (max-width: 660px) {
+	.landingSplash {
+		width: 90%;
+		.landingSplash__title h1 {
+			width: 100%;
+			font-size: 60px;
+			line-height: 55px;
+			letter-spacing: 5px;
+			padding: 0 20px;
+		}
+
+	}
+}
  
 // // Landscape phones and down
-// @media (max-width: 480px) {
-// 	.landingSplash {
-// 		height: 80%;
-// 		.landingSplash__title h1 {
-// 		font-size: 30px;
-// 		line-height: 10px;
-// 		text-transform: uppercase;
-// 		letter-spacing: 2px;
-// 		text-align: center;
-// 		padding: 0 20px;
-// 		text-shadow:
-// 		    7px 7px 0 $darkblue,
-// 		    -3px -2px 0 $darkblue,  
-// 		    3px -2px 0 $darkblue,
-// 		    -3px 2px 0 $darkblue,
-// 		     3px 2px 0 $darkblue;
-// 		}
-// 	}
-// }
+@media (max-width: 565px) {
+	.landingSplash {
+		width: 95%;
+		.landingSplash__title h1 {
+			font-size: 50px;
+		}
+		.landingSplash__title p {
+			width: 50%;
+			margin: 40px auto 5px auto;
+			text-align: center;
+		}
+		form {
+		    width: 40%;
+		    margin: 0 auto;
+		    font-size: 20px;
+		    margin-top: 40px;
+		    label {
+		    	font-size: 15px;
+		    }
+		}
+	}
+}
 
+@media (max-width: 440px) {
+	.landingSplash {
+		.landingSplash__title h1 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+		.landingSplash__title p {
+			width: 70%;
+			margin: 20px auto 5px auto;
+		}
+		form {
+		    width: 40%;
+		    margin: 0 auto;
+		    font-size: 20px;
+		    margin-top: 20px;
+		    label {
+		    	font-size: 15px;
+		    }
+		}
+	}
+}
 
-// @media (max-width: 400px) {
-
-// }
