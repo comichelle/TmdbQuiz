@@ -4,8 +4,7 @@
 	// margin: 0 auto;
 	display: flex;
 	margin: auto;
-	// background-color: rgba(255,255,255,0.5);
-	background-color: rgba(11, 64, 100, 0.9);
+	background-color: rgba(11, 64, 100, .97);
 	position: fixed;
 	border-radius: 10px;
 	z-index: 100;
@@ -100,46 +99,6 @@
 // 	}
 // }
 
-<<<<<<< HEAD
-@media (max-width: 610px) {
-	.landingSplash {
-		height: 80%;
-		.landingSplash__title h1 {
-		font-size: 50px;
-		line-height: 65px;
-		letter-spacing: 10px;
-		padding: 0 20px;
-		text-shadow:
-		    7px 7px 0 $darkblue,
-		    -3px -2px 0 $darkblue,  
-		    3px -2px 0 $darkblue,
-		    -3px 2px 0 $darkblue,
-		     3px 2px 0 $darkblue;
-		 }
-	}
-}
- 
-// Landscape phones and down
-@media (max-width: 480px) {
-	.landingSplash {
-		height: 80%;
-		.landingSplash__title h1 {
-		font-size: 30px;
-		line-height: 10px;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-		text-align: center;
-		padding: 0 20px;
-		text-shadow:
-		    7px 7px 0 $darkblue,
-		    -3px -2px 0 $darkblue,  
-		    3px -2px 0 $darkblue,
-		    -3px 2px 0 $darkblue,
-		     3px 2px 0 $darkblue;
-		}
-	}
-}
-=======
 // @media (max-width: 610px) {
 // 	.landingSplash {
 // 		height: 80%;
@@ -184,4 +143,3 @@
 // @media (max-width: 400px) {
 
 // }
->>>>>>> bd45e148ed8f7549b416cac5b69921d1c76de4aa
